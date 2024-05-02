@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; // Центрирование по вертикали
+  align-items: center;     // Центрирование по горизонтали
+  height: 100vh;           // Высота равная высоте окна браузера
+  margin-bottom: 20px;
+}
+
+.Buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.Button:first-child {
+  margin-right: 10px;
+}
+
+.Button:last-child {
+  margin-left: 10px;
+}
